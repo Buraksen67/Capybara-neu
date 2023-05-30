@@ -1,0 +1,104 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #cd853f;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+    color: #5a330c;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+/* Links farbig und nicht mehr unterstrichen */
+a:link, a:visited {
+    color: #412603;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #50360b;
+}
+
+/* Pfeile zum navigieren */
+.arrow-left::before {
+    content: "\2190";
+    margin-right: 5px; /* Abstand zum Text */
+}
+
+.arrow-right span {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#links-left {
+    width: 210px;
+    height: auto;
+    background-color: #b87b3e;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: thin solid rgb(57, 27, 10);
+}
+
+#links-right {
+    width: 210px;
+    height: auto;
+    background-color: #b87b3e;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    border: thin solid rgb(57, 27, 10);
+}
+
+#links-center {
+    width: auto;
+    height:  auto;
+    background-color: #b87b3e;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    word-spacing: 10px;
+    white-space: nowrap;
+    border: thin solid rgb(57, 27, 10);
+}
+
+#text {
+    width: 1000px;
+    height: auto;
+    background-color: #b87b3e;
+    border-radius: 20px;
+    border-color: #5a330c;
+    border: 0.5rem outset #5a330c;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+footer{
+    font-size: 1.25rem;
+    width: auto;
+    text-align: left;
+    background-color: #877B69;
+    margin-top: 20%;
+}
+
+#punkte{
+    list-style-type: none;
+}
